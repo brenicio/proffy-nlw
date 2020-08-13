@@ -3,14 +3,24 @@
 # dependencies
 /web/node_modules
 /server/node_modules
+/mobile/node_modules/**/*
+/mobile/npm-debug.*
 .pnp
 .pnp.js
+.expo/*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
 
 # testing
 /web/coverage
 
 # production
 /web/build
+/mobile/web-build/
 
 # misc
 .DS_Store
@@ -22,3 +32,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
